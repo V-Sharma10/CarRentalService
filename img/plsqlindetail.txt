@@ -1,0 +1,85 @@
+——Create 2 tables as follows
+
+mmble ﬁgment table [ﬂvarchaﬂﬁﬂL payment number, total due numberl;
+mmhle m [m varcharZBﬂL status varcharZBﬂL amt owed number, amt cred it
+numbed;
+
+——I'n5ertfo|lowmgvalues I'nto paymenttable and keep the second table empty.
+Mine ﬁugment table value5['ABC',9ﬂ.5,15ﬂ.99j;
+
+M into ﬁgment table values ['AAA'JQJQ);
+
+Mine ﬁugment table value5['BBB',95ﬂ,1{Hl-ﬂ:l;
+
+Minto ﬁgment tablevalue5['CCC',2?.5,2?.51;
+
+Mine ﬁgment table value5['DDD',35ﬂ,50-ti.951;
+
+M into ﬁgment table values ['EEE',5?.89,6?.891;
+
+Minto ﬁgment tablevalues['FFF',555.55,455.551;
+
+Minto ﬁgment table value5['GGG',122.35,122.351;
+
+Minto ﬁgment table value5['HHH',26.?5,0.ﬁDJ;
+
+select * from ﬁgment table:
+select * from Murder by status;
+delete from ﬁgment table where ﬁgﬁt='HHH';
+
+ 
+
+insertinto ﬁgment table values['HHH'26.?5,26.?51;
+truncate table mtg;
+
+f-PLEULBIOCK
+
+sewgtseweroutﬁuton
+BEGIN
+
+DECLARE
+Athero EXCEPTION;
+
+ctustld ﬁgment table.cu5t%TYPE;
+ngment ﬁgment table.ﬁgment%T‘rPE;
+ﬂotalDue ﬁgment tahle.total due%TYPE:
+gym ﬁgment cursoris
+mgﬂ pgment,total due
+Mﬁgment table:
+vaerPaid number[8,21;
+fUnderPaid number[8,2:l;
+BEGIN
+Qﬁgﬁ ﬁgment cursor:
+Lﬁgﬁ
+Mﬁgment cursor into
+ctustld. ngmentI fTotalDue:
+egjtwhen ﬁgment cursor‘iﬁNDTFDUND:
+iﬂ W = '3' 1 then
+urgjﬂsghmtlero;
+
+ 
+
+£1111”;
+
+1t[ngment > fTDtalDue jthen
+fﬂverPaid := ngment— ﬂotalDue:
+1% into WHEEL status, amt credit)
+3% [ctustld. 'Dver Paid', fﬂverPaidl;
+glam ngme nt< fTotalDue 1then
+fUnderPaid :2 fTotalDue — ngme nt:
+M into mtgmﬁgt, status, amt owed)
+ﬁglﬁeﬁ [c£u5tld. 'Still Dwes', fUnderPaidj;
+21%;;
+m into M
+EMIICCustId. 'Paid in Full', null, nulll;
+em! if;
+end. loom
+gunﬁgﬁgxment cursor:
+EXCEP‘I'IDN
+m Amtlerothen
+DBMS DUTPUT.ﬁut |ine['ERRDR:TDtaI Due cannot be Zero.5ee your supervisorfl;
+m D11-IERS then
+DBMS DUTPUT.ﬁut linel'ERRDR: unknownerror. See the DBA'L'.
+END;
+END;
+
