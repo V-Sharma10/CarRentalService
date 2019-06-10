@@ -3,7 +3,7 @@
 
 This website is a example of car rental services.
 
-For live demo visit: carrentalservice.rf.gd
+For live demo visit: http://carrentalservice.rf.gd
 
 id: admin
 
